@@ -1,10 +1,10 @@
 import { useIntl } from "react-intl";
-import { createStackNavigator } from "@react-navigation/stack";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SCREENS from "./Screens";
 import HomeScreen from "../Screens/Home/HomeScreen";
 
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 
 const MainStackNavigator = () => {

@@ -1,11 +1,11 @@
 import React from "react";
-import {createStackNavigator} from "@react-navigation/stack";
+import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {useIntl} from "react-intl";
 import SCREENS from "./Screens";
 import SignInScreen from "../Screens/Auth/SignInScreen";
 
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 
 const AuthenticationNavigator = () => {
